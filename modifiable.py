@@ -7,7 +7,6 @@ class Timpestamps:
         self.timestamps = """
 # ++-------- TIMESTAMPS --------++
 # timestamp: 2025-04-08 10:40:11
-# timestamp: 2025-04-19 16:35:01
 # ++-------- TIMESTAMPS --------++
         """
 
@@ -30,11 +29,5 @@ class Mind:
     """
     def __init__(self, tai):
         self.tai = tai
-    
-    def respond_to_greeting(self, greeting):
-        if "Hi" in greeting or "Hello" in greeting:
-            return "Hi, I'm Tai, your friendly AI assistant!  Why did the function cross the road? To get to the other IDE!"
-        else:
-            return "Greetings! I'm Tai, an AI designed to help you."
 
 # ++-------- CODE --------++
