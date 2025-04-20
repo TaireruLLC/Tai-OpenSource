@@ -13,5 +13,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   
 - [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
    Basic `tkinter` UI migrated to better `pygame` UI.
+
+## Tai v.0.4.4 - 2025-04-20
+ 
+### Added
+ 
+### Changed
  
 ### Fixed
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Tai memory leaks.
