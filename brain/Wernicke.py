@@ -2,7 +2,7 @@
 import google.generativeai as genai
 from typing import Optional, Union
 
-def set_library_installer(model_name: str) -> genai.GenerativeModel:
+def set_personality(model_name: str) -> genai.GenerativeModel:
     """
     Configures the Wernicke AI model to interpret and act on requests
     related to Python library management. Returns a model instance
