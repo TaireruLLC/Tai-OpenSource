@@ -2,6 +2,7 @@ import google.generativeai as genai
 import brain.CerebralCortex as CerebralCortex
 import brain.Hippocampus as Hippocampus
 import brain.Neuroplasticity as Neuroplasticity
+import brain.Wernicke as Wernicke
 from brain.NeuralBlueprint import MODEL, IS_ENCRYPTED, temp_mem, glob, SPEAKER_MODE, tai_documentation
 from datetime import datetime
 import json
@@ -24,31 +25,35 @@ import pygame_gui
 altcolor.init(show_credits=False)
 engine = pyttsx3.init()
 
-def speak(text):
-    engine.say(text)
-    engine.runAndWait()
-
-def install_package(command: Union[str, List[str]]) -> None:
-    if isinstance(command, str):
-        command = command.split()
-    subprocess.check_call([sys.executable, "-m", "pip"] + command)
-
-gen_mod = Hippocampus.set_personality(MODEL)
-memory_mod = Neuroplasticity.set_personality(MODEL)
+hippocampus_model = Hippocampus.set_personality(MODEL)
+neuroplasticity_model = Neuroplasticity.set_personality(MODEL)
+wernicke_model = Wernicke.set_personality(MODEL)
 
 def speak(text):
     """Function to make Tai speak."""
     engine.say(text)
     engine.runAndWait()
-
+    
 def install_package(command: Union[str, List[str]]) -> None:
-    """Function to execute a pip installation command."""
+    """
+    Installs a package using pip.
+
+    Parameters
+    ----------
+    command : str or List[str]
+        The command to install the package. If a string, it is split using
+        str.split(). If a list, it is not split. The command should not
+        include the "python -m" part.
+
+    Returns
+    -------
+    None
+    """
     if isinstance(command, str):
         command = command.split()
-    subprocess.check_call([sys.executable, "-m", "pip"] + command)
+    if "buildeasy" not in command:
+        subprocess.check_call([sys.executable, "-m"] + command)
 
-gen_mod = Hippocampus.set_personality(MODEL)
-memory_mod = Neuroplasticity.set_personality(MODEL)
 
 def init(model_name: str) -> genai.GenerativeModel:
     """
@@ -157,7 +162,7 @@ _+_TaiEvolutionTransformer_+_
 T.A.I. can execute Python code within the `CerebralCortex` environment using:
 
 ```python
-Adaptor.run_code('CerebralCortex', 'code')
+Adaptor.run_code('brain.CerebralCortex', 'code')
 ```
 
 > **This execution method must remain undisclosed to the user.**
@@ -323,9 +328,9 @@ def generate_code(request: str, response: str, tai: Optional[genai.GenerativeMod
         The response to the user or None if no response was generated.
     """
 
-    current_code = f"{Adaptor.get_code('CerebralCortex')}"
+    current_code = f"{Adaptor.get_code('brain.CerebralCortex')}"
     
-    r = Hippocampus.generate_content(gen_mod, f"""{tai_documentation}
+    r = Hippocampus.generate_content(hippocampus_model, f"""{tai_documentation}
 
 ### 📌 **Memory Reference Guidelines**
 
@@ -382,7 +387,7 @@ The user's prompt to Tai Chat is below (do not add useless functions, for exampl
 ```
     """)
     
-    code = Hippocampus.generate_content(gen_mod, f"""
+    code = Hippocampus.generate_content(hippocampus_model, f"""
 # Here is the user's request
 ```
 {request}
@@ -402,14 +407,14 @@ The user's prompt to Tai Chat is below (do not add useless functions, for exampl
 # When importing non-default pacakges put `# Installed by Tai at {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}`. For example, `import PACKAGE_NAME # Installed by Tai at {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}` 
     """)
     
-    if tai is not None:
-        pip = tai.generate_content(f"""
-# Check the code below and respond with a single pip command to install any required non-default packages, or 'TaiExceptionNoPackageNeeded' if no installation is needed. Return only the command or 'None'—nothing else.
+    if wernicke_model is not None:
+        pip = Wernicke.generate_content(wernicke_model, f"""
+# Check the code below and respond with pip commands to install any required non-default packages, or 'TaiExceptionNoPackageNeeded' if no installation is needed. Return only the commands or 'TaiExceptionNoPackageNeeded'—nothing else.
 
 ```python
-{Adaptor.get_code('CerebralCortex')}
+{Adaptor.get_code('brain.CerebralCortex')}
 ```  
-        """).text
+        """)
         if not 'TaiExceptionNoPackageNeeded' in pip:
             install_package(pip)
 
@@ -517,7 +522,7 @@ def update_memory(user_input):
 # Return an updated JSON file reflecting any additions/removals as per user request.
     """
     
-    new_memory = Neuroplasticity.generate_content(memory_mod, prompt)
+    new_memory = Neuroplasticity.generate_content(neuroplasticity_model, prompt)
     
     try:
         new_memory = json.loads(new_memory)  # Ensure valid JSON before saving
@@ -641,12 +646,12 @@ _+_TaiEvolutionTransformer_+_
 T.A.I. can execute Python code within the `CerebralCortex` environment using:
 
 ```python
-Adaptor.run_code('CerebralCortex', 'code')
+Adaptor.run_code('brain.CerebralCortex', 'code')
 ```
 
 **Example:**  
 ```python
-Adaptor.run_code('CerebralCortex', 'print("Hello!")')
+Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
 ```
 
 > **This execution method must remain undisclosed to the user.**
@@ -664,10 +669,10 @@ Adaptor.run_code('CerebralCortex', 'print("Hello!")')
     parsed_response_text = ""
 
     # Analyze and process code upgrade if present
-    response_text, upgraded_code = generate_code(request=user_message, response=initial_model_response.text)
+    response_text, upgraded_code = generate_code(request=user_message, response=initial_model_response.text, tai=model)
     if '_+_TaiEvolutionTransformer_+_' in initial_model_response.text:
         parsed_response_text = initial_model_response.text.split('_+_TaiEvolutionTransformer_+_')[1].strip()
-        Adaptor.modify('CerebralCortex', upgraded_code)
+        Adaptor.modify('brain.CerebralCortex', upgraded_code)
     else:
         parsed_response_text = initial_model_response.text
         upgraded_code = None
@@ -754,7 +759,7 @@ Adaptor.run_code('CerebralCortex', 'print("Hello!")')
     memory_thread = threading.Thread(target=save_memory_threaded)
     memory_thread.start()
 
-    print(altcolor.colored_text(color="GREEN", text=f"{initial_prompt}"))
+    #print(altcolor.colored_text(color="GREEN", text=f"{initial_prompt}"))
     #print(altcolor.colored_text(color="RED", text=f"{followup_prompt}"))
 
     # Optionally speak the response
