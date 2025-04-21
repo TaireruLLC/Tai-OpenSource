@@ -1,10 +1,11 @@
 # 🚨 IMPORTANT
 
 To run or use any of the code in this repository, you **must have _BuildEasy_ installed on your system**.  
-You also need to have the following Python packages installed:
+You also need to install all required Python packages listed in the [`requirements.txt`](./requirements.txt) file:
 
-- `gitbase` (`pip install gitbase>=0.5.8`) 
-- `google.generativeai` (`pip install google_generativeai`)
+```bash
+pip install -r requirements.txt
+```
 
 ## 🛠️ Install BuildEasy
 
