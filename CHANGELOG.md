@@ -23,3 +23,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 - [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
    Tai memory leaks.
+
+## Tai v.0.4.5 - 2025-04-21
+ 
+### Added
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Added `Wernicke` Configuration for 1217, which manages (or is soon to manage) library installation
+- [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Added `Wernicke` Configuration for 1218, which manages (or is soon to manage) library installation
+
+### Changed
+ - [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Renamed every TaiDivisions Configuration
+- [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Renamed every TaiDivisions Configuration
+### Fixed
