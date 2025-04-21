@@ -1,0 +1,6 @@
+gitbase==0.5.8
+google-generativeai
+pygame
+altcolor
+multicoin
+cryptography
