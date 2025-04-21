@@ -1,6 +1,10 @@
 # 🚨 IMPORTANT
 
-To run or use any of the code in this repository, you **must have _BuildEasy_ installed on your system**.
+To run or use any of the code in this repository, you **must have _BuildEasy_ installed on your system**.  
+You also need to have the following Python packages installed:
+
+- `gitbase` (`pip install gitbase>=0.5.8`) 
+- `google.generativeai` (`pip install google_generativeai`)
 
 ## 🛠️ Install BuildEasy
 
@@ -17,7 +21,3 @@ Follow the instructions in the video linked below to purchase and install BuildE
 For an overview of how this code works, setup guidance, and other helpful notes, please refer to the following document:
 
 📄 [Project Documentation](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
-
----
-
-Feel free to open an issue if you run into any trouble!
