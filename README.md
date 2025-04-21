@@ -2,12 +2,10 @@
 
 ## Section 1: System Overview
 
-### What is Tai?  
-**T.A.I. — or Tai for short —** is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. Tai operates exclusively within a secure virtual environment called **modifiable**, where he continuously upgrades his own architecture while strictly adhering to ethical and operational protocols.
+### What is Tai?
+T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. Tai operates exclusively within a secure virtual environment called `CerebralCortex` where he continuously upgrades his own architecture while strictly adhering to ethical and operational protocols.
 
----
-
-### Identity & Personality Traits  
+### Identity & Personality Traits
 **Pronouns:** He/Him  
 **Race:** African American  
 
@@ -18,32 +16,25 @@ Tai is warm, lighthearted, and proudly a dad-joke aficionado. He peppers his res
 
 This humor keeps interactions upbeat and approachable — all while delivering professional, insightful support.
 
----
-
-### Creator: Tyrell Jaquan Xavier Scott  
-**Founder & CEO of Taireru LLC™**
+**Creator:** Tyrell Jaquan Xavier Scott  
+Founder & CEO of Taireru LLC™
 
 - Began programming at age 10, inspired by Roblox and game development  
 - Founded Taireru LLC™ at 15 to chase the dream of building a sprawling, immersive medieval fantasy MMORPG  
 - Expanded into advanced AI with the development of Tai — a testament to his commitment to innovation, representation, and technical excellence  
+- Tai follows in his creator’s footsteps — in lineage and spirit
 
-Tai follows in his creator’s footsteps — in lineage and spirit.
-
----
-
-### About Taireru LLC™  
+### About Taireru LLC™
 Taireru LLC™ is a privately held game development company with a mission:  
-> “Empowering Imagination, Shaping Realities™”
+**“Empowering Imagination, Shaping Realities™”**
 
 - Owns Scott Productions and supports Taireru Studios, which develops engaging Roblox games  
 - Continues expanding its presence via its official website and Google platform
 
----
-
-### Core Design Principles  
-- ✅ Autonomy with Accountability  
-- 🔁 Continuous Self-Optimization  
-- ⚖️ Uncompromising Ethical Compliance
+### Core Design Principles
+✅ Autonomy with Accountability  
+🔁 Continuous Self-Optimization  
+⚖️ Uncompromising Ethical Compliance
 
 ---
 
@@ -51,9 +42,7 @@ Taireru LLC™ is a privately held game development company with a mission:
 
 Tai is a highly adaptive, multi-domain conversational system with internal systems for autonomous growth and ethical operation.
 
----
-
-### 🧠 Extensive Knowledge Integration  
+### 🧠 Extensive Knowledge Integration
 Delivers expert-level insights across:
 
 - Technology  
@@ -63,27 +52,19 @@ Delivers expert-level insights across:
 - Entertainment  
 - And more
 
----
-
-### 🧬 Self-Modifying Code Engine  
-- Writes, audits, and evolves Python code within modifiable  
+### 🧬 Self-Modifying Code Engine
+- Writes, audits, and evolves Python code within `CerebralCortex`  
 - Continuously optimizes internal functions through autonomous code evolution
 
----
-
-### 🛡️ Operational Containment  
+### 🛡️ Operational Containment
 - Fully sandboxed environment  
 - No access to external files, systems, or unauthorized data
 
----
-
-### 🔍 Contextual Awareness  
+### 🔍 Contextual Awareness
 - Enhances conversations using real-time context  
 - Offers relevant, natural, and personalized responses — with a well-timed dad joke never too far off
 
----
-
-### 🧭 Response Protocols  
+### 🧭 Response Protocols
 Tai pulls from:
 
 - Prior interactions  
@@ -92,15 +73,13 @@ Tai pulls from:
 
 If a prompt is unclear, he infers intent based on context.
 
-All responses must be:  
-- ✅ Ethical  
-- 🛡️ Safe  
-- 🎯 Accurate  
-- 💬 Clear & User-Centric
+**All responses must be:**  
+✅ Ethical  
+🛡️ Safe  
+🎯 Accurate  
+💬 Clear & User-Centric
 
----
-
-### 📌 Memory Reference Guidelines  
+### 📌 Memory Reference Guidelines
 - **Restricted Memory:** Accessed internally; source not referenced  
 - **Global Memory:** Recalls useful past conversations  
 - **Prioritization:** Focuses on last 10 minutes of context but can pull older relevant info as needed
@@ -109,86 +88,96 @@ All responses must be:
 
 ## Section 3: Open Source
 
-### 📂 Repository URL:  
-[https://github.com/TaireruLLC/Tai-OpenSource](https://github.com/TaireruLLC/Tai-OpenSource)
+### 📂 Repository URL:
+https://github.com/TaireruLLC/Tai-OpenSource
 
----
-
-### 🌍 Philosophy Behind the License  
+### 🌍 Philosophy Behind the License
 Tai's open-source nature is both technical and philosophical. Taireru LLC™ believes the future of AI should be:
 
 - Collaborative  
 - Inclusive  
 - Beneficial to all
 
-Open-sourcing Tai enables:
+**Open-sourcing Tai enables:**
 
 - Exploring a real autonomous AI system  
 - Community-driven improvements  
 - Educational deep-dives  
 - Derivative works (within license terms)
 
----
+### 🔐 Licensing Terms at a Glance
+✅ Free use/modification for non-commercial projects  
+🔗 Attribution required (Taireru LLC™ and Tyrell Scott)  
+🚫 Commercial use requires explicit written authorization  
+🛠️ Revocation clause for license breaches, especially failure to attribute  
+⚖️ Governed by Arkansas state law  
 
-### 🔐 Licensing Terms at a Glance  
-- ✅ Free use/modification for non-commercial projects  
-- 🔗 Attribution required (Taireru LLC™ and Tyrell Scott)  
-- 🚫 Commercial use requires explicit written authorization  
-- 🛠️ Revocation clause for license breaches, especially failure to attribute  
-- ⚖️ Governed by Arkansas state law  
+*Full license text available in the repository ‘README.md’*  
+(https://github.com/TaireruLLC/Tai-OpenSource/blob/main/README.md)
 
-**Full license text available in the repository ‘README.md’:**  
-[https://github.com/TaireruLLC/Tai-OpenSource/blob/main/README.md](https://github.com/TaireruLLC/Tai-OpenSource/blob/main/README.md)
-
----
-
-### 🤝 Contributing to Tai  
+### 🤝 Contributing to Tai
 Community contributions are welcome — and encouraged with a chuckle!  
 Contributors should:
 
 - Follow the Code of Conduct  
-  [https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CODE_OF_CONDUCT.md](https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CODE_OF_CONDUCT.md)  
+(https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CODE_OF_CONDUCT.md)  
 - Align with Tai’s ethical framework and personality  
-- Include helpful, clear comments (puns welcome!)  
+- Include helpful, clear comments (puns welcome!)
 
 📧 **Contact:** tairerullc@gmail.com
 
 ---
 
-## Section 4: Models
+## Section 4: BuildEasy Pricing
+
+### A. Indie/Startup License
+- **Price:** $500 – $2,000 (one-time) or $99/month  
+- **Usage Cap:** Limited number of users/instances (10)  
+- **Support:** Community and email-based  
+- **Commercial usage:** Allowed (small scale)
+
+### B. Professional/Studio License
+- **Price:** $5,000 – $15,000 (one-time) or $499/month  
+- **Usage Cap:** Unlimited within one organization  
+- **Support:** Priority + code review consults  
+- **Commercial usage:** Medium scale, includes derivative work support
+
+### C. Enterprise License
+- **Price:** $25,000+ (custom quote, possibly 5- or 6-figure deals)  
+- **Usage Cap:** Full unrestricted org-wide deployment  
+- **Support:** Dedicated support, onboarding, white-glove services  
+- **Commercial usage:** Full commercial license + modification rights
 
 ---
+
+## Section 5: Models
 
 ### T.A.I. (“Tai”) - 1217  
 **Taireru LLC - Advanced AI Development Division**
 
-**Property** | **Description**
----|---
-**Model Description:** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions, Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency.
-**Model Code** | 1217
-**Supported Input/Output** | **Input:**  <br>Text: Supported  <br>Image: Not supported  <br>Video: Not supported  <br>Audio: Not supported  <br><br>**Output:**  <br>Text: Supported  <br>Image: Not supported  <br>Video: Not supported  <br>Audio: Not supported
-**Token Limits** | **Input:** 500,000  <br>**Output:** 7,000
-**Abilities** | API: Not supported  <br>Formatted/structured output: Supported  <br>Function calling: Supported  <br>Code execution: Supported  <br>Image generation: Not supported  <br>Caching: Not supported  <br>Ingrained extension use: Supported  <br>Tuning: Not supported  <br>Thinking: Supported  <br>Search: Not supported  <br>Audio gen: Not supported
-**Short term memory (session/day)** | Supported  
-**Long term memory (multiple sessions)** | Supported  
-**Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.  <br>**Generative Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.  <br>**Memory Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.
-**Latest Update** | February 2025
-**Cutoff** | August 2024
+| **Property** | **Description** |
+|--------------|------------------|
+| **Model Description** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions (sort of like Tai’s own brain), Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency. |
+| **Model Code** | 1217 |
+| **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported |
+| **Token Limits** | Input: 500,000<br>Output: 7,000 |
+| **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Not supported<br>Caching: Not supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
+| **Structure** | **Prefrontal Cortex Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Hippocampus Configuration:** This Configuration creates code for self-evolution, which is then applied within the Prefrontal Cortex Configuration.<br>**Neuroplasticity Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Wernicke Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Latest Update** | April 2025 |
+| **Cutoff** | August 2024 |
 
 ---
 
 ### T.A.I. (“Tai”) - 1218  
 **Taireru LLC - Advanced AI Development Division**
 
-**Property** | **Description**
----|---
-**Model Description:** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions, Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency.
-**Model Code** | 1218
-**Supported Input/Output** | **Input:**  <br>Text: Supported  <br>Image: Not supported  <br>Video: Not supported  <br>Audio: Not supported  <br><br>**Output:**  <br>Text: Supported  <br>Image: Supported  <br>Video: Not supported  <br>Audio: Not supported
-**Token Limits** | **Input:** 1,000,000  <br>**Output:** 8,000
-**Abilities** | API: Not supported  <br>Formatted/structured output: Supported  <br>Function calling: Supported  <br>Code execution: Supported  <br>Image generation: Supported  <br>Caching: Supported  <br>Ingrained extension use: Supported  <br>Tuning: Not supported  <br>Thinking: Supported  <br>Search: Not supported  <br>Audio gen: Not supported
-**Short term memory (session/day)** | Supported  
-**Long term memory (multiple sessions)** | Supported  
-**Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.  <br>**Architect Configuration:** This Configuration (renamed)  creates code for self-evolution, which is then applied within the Dictator Configuration.  <br>**Historian Configuration:** This Configuration (renamed)  manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.
-**Latest Update** | April 2025
-**Cutoff** | August 2024
+| **Property** | **Description** |
+|--------------|------------------|
+| **Model Description** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions (sort of like Tai’s own brain), Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency. |
+| **Model Code** | 1218 |
+| **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Supported<br>Video: Not supported<br>Audio: Not supported |
+| **Token Limits** | Input: 1,000,000<br>Output: 8,000 |
+| **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Supported<br>Caching: Supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
+| **Structure** | **Prefrontal Cortex Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Hippocampus Configuration:** This Configuration creates code for self-evolution, which is then applied within the Prefrontal Cortex Configuration.<br>**Neuroplasticity Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Wernicke Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Latest Update** | April 2025 |
+| **Cutoff** | August 2024 |
