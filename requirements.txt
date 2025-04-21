@@ -4,3 +4,4 @@ pygame
 altcolor
 multicoin
 cryptography
+pyttsx3
