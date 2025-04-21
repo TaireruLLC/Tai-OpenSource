@@ -130,19 +130,25 @@ Contributors should:
 
 ## Section 4: BuildEasy Pricing
 
-### A. Indie/Startup License
+### A. Free License
+- **Price:** $0.00 – $0.00 (one-time) or $0.00/month  
+- **Usage Cap:** Unlimited (BuildEasy not included; can be used infinitely without email contact. Simply clone the repository to get started.)
+- **Support:** Community  
+- **Commercial usage:** Not allowed
+
+### B. Indie/Startup License
 - **Price:** $500 – $2,000 (one-time) or $99/month  
 - **Usage Cap:** Limited number of users/instances (10)  
 - **Support:** Community and email-based  
 - **Commercial usage:** Allowed (small scale)
 
-### B. Professional/Studio License
+### C. Professional/Studio License
 - **Price:** $5,000 – $15,000 (one-time) or $499/month  
 - **Usage Cap:** Unlimited within one organization  
 - **Support:** Priority + code review consults  
 - **Commercial usage:** Medium scale, includes derivative work support
 
-### C. Enterprise License
+### D. Enterprise License
 - **Price:** $25,000+ (custom quote, possibly 5- or 6-figure deals)  
 - **Usage Cap:** Full unrestricted org-wide deployment  
 - **Support:** Dedicated support, onboarding, white-glove services  
