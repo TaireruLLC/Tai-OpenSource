@@ -1,4 +1,4 @@
-gitbase==0.5.8
+gitbase>=0.5.8
 google-generativeai
 pygame
 altcolor
