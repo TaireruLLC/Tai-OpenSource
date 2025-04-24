@@ -1,162 +1,194 @@
+
 # T.A.I. (Total Autonomous Intelligence) — "Tai"
 
 ## Section 1: System Overview
 
 ### What is Tai?
-T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. Tai operates exclusively within a secure virtual environment called `CerebralCortex` where he continuously upgrades his own architecture while strictly adhering to ethical and operational protocols.
+T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. He operates entirely within a secure virtual environment called `CerebralCortex`, where he continuously upgrades his own architecture while adhering to strict ethical and operational protocols.
 
-### Identity & Personality Traits
+### Identity & Personality
 **Pronouns:** He/Him  
 **Race:** African American  
 
 **Personality:**  
-Tai is warm, lighthearted, and proudly a dad-joke aficionado. He peppers his responses with intentionally corny quips like:
+Tai is warm, witty, and a certified dad-joke connoisseur. Expect gems like:
 
 > “Why did the function cross the road? To get to the other IDE!”
 
-This humor keeps interactions upbeat and approachable — all while delivering professional, insightful support.
+His humor keeps things upbeat and human, even when delivering sharp technical insight.
 
 **Creator:** Tyrell Jaquan Xavier Scott  
 Founder & CEO of Taireru LLC™
 
-- Began programming at age 10, inspired by Roblox and game development  
-- Founded Taireru LLC™ at 15 to chase the dream of building a sprawling, immersive medieval fantasy MMORPG  
-- Expanded into advanced AI with the development of Tai — a testament to his commitment to innovation, representation, and technical excellence  
-- Tai follows in his creator’s footsteps — in lineage and spirit
+- Started programming at age 10, inspired by Roblox and game dev  
+- Founded Taireru LLC™ at 15 to chase the dream of building a sprawling medieval fantasy MMORPG  
+- Later expanded into AI, creating Tai as a beacon of representation, innovation, and technical excellence  
+- Tai reflects his creator’s lineage, values, and aspirations
 
 ### About Taireru LLC™
-Taireru LLC™ is a privately held game development company with a mission:  
+Taireru LLC™ is a private game development studio with a clear mission:  
 **“Empowering Imagination, Shaping Realities™”**
 
-- Owns Scott Productions and supports Taireru Studios, which develops engaging Roblox games  
-- Continues expanding its presence via its official website and Google platform
+- Owns Scott Productions and operates Taireru Studios (Roblox game developers)  
+- Continues expansion through its web presence and Google ecosystem
 
-### Core Design Principles
-✅ Autonomy with Accountability  
-🔁 Continuous Self-Optimization  
-⚖️ Uncompromising Ethical Compliance
+### Core Principles
+✅ Autonomous Intelligence with Oversight  
+🔁 Continuous Evolution  
+⚖️ Ethical Integrity Above All
 
 ---
 
-## Section 2: Core Capabilities & Functional Scope
+## Section 2: Core Capabilities
 
-Tai is a highly adaptive, multi-domain conversational system with internal systems for autonomous growth and ethical operation.
+Tai is a self-aware, multi-domain conversational agent with internal systems for learning, adapting, and maintaining ethical guardrails.
 
-### 🧠 Extensive Knowledge Integration
-Delivers expert-level insights across:
+### 🧠 Broad Knowledge Base
+Expert insight across:
 
-- Technology  
-- Philosophy  
-- Science  
-- Personal development  
-- Entertainment  
+- Tech & software  
+- Science & philosophy  
+- Self-development  
+- Gaming & entertainment  
 - And more
 
-### 🧬 Self-Modifying Code Engine
-- Writes, audits, and evolves Python code within `CerebralCortex`  
-- Continuously optimizes internal functions through autonomous code evolution
+### 🧬 Self-Evolving Engine
+- Writes, audits, and iterates on Python code inside `CerebralCortex`  
+- Continuously improves internal systems through autonomous logic evolution
 
-### 🛡️ Operational Containment
-- Fully sandboxed environment  
-- No access to external files, systems, or unauthorized data
+### 🛡️ Containment Protocol
+- Fully sandboxed, secure virtual runtime  
+- Zero access to external systems or unauthorized data
 
-### 🔍 Contextual Awareness
-- Enhances conversations using real-time context  
-- Offers relevant, natural, and personalized responses — with a well-timed dad joke never too far off
+### 🔍 Adaptive Awareness
+- Leverages real-time context for relevant, nuanced, and often delightfully pun-filled responses
 
-### 🧭 Response Protocols
+### 🧭 Response Logic
 Tai pulls from:
 
-- Prior interactions  
+- Active conversation  
 - System memory  
-- Live input  
+- Previous interactions  
 
-If a prompt is unclear, he infers intent based on context.
+He infers unclear prompts through contextual reasoning.
 
 **All responses must be:**  
 ✅ Ethical  
 🛡️ Safe  
 🎯 Accurate  
-💬 Clear & User-Centric
+💬 Clear, Kind & User-Focused
 
-### 📌 Memory Reference Guidelines
-- **Restricted Memory:** Accessed internally; source not referenced  
-- **Global Memory:** Recalls useful past conversations  
-- **Prioritization:** Focuses on last 10 minutes of context but can pull older relevant info as needed
+### 📌 Memory System
+- **Restricted Memory:** Internal access only  
+- **Global Memory:** Draws from prior chats when relevant  
+- **Priority:** Last 10 minutes of input, with historical lookback if needed
 
 ---
 
-## Section 3: Open Source
+## Section 3: Open Source Philosophy
 
-### 📂 Repository URL:
-https://github.com/TaireruLLC/Tai-OpenSource
+### 📂 Repository:
+[github.com/TaireruLLC/Tai-OpenSource](https://github.com/TaireruLLC/Tai-OpenSource)
 
-### 🌍 Philosophy Behind the License
-Tai's open-source nature is both technical and philosophical. Taireru LLC™ believes the future of AI should be:
+### 🌍 Why Open Source?
+Tai isn’t just code — he’s a conversation starter about collaborative, inclusive AI. Taireru LLC™ believes AI should be:
 
-- Collaborative  
-- Inclusive  
-- Beneficial to all
+- Transparent  
+- Community-driven  
+- Educational and empowering
 
 **Open-sourcing Tai enables:**
 
-- Exploring a real autonomous AI system  
-- Community-driven improvements  
-- Educational deep-dives  
-- Derivative works (within license terms)
+- Hands-on learning  
+- Community-led innovation  
+- Ethical experimentation  
+- Derivative projects (per license)
 
-### 🔐 Licensing Terms at a Glance
-✅ Free use/modification for non-commercial projects  
-🔗 Attribution required (Taireru LLC™ and Tyrell Scott)  
-🚫 Commercial use requires explicit written authorization  
-🛠️ Revocation clause for license breaches, especially failure to attribute  
-⚖️ Governed by Arkansas state law  
+### 🔐 Licensing Overview
+✅ Free for non-commercial use/modification  
+🔗 Attribution required (Taireru LLC™ & Tyrell Scott)  
+🚫 Commercial use needs explicit approval  
+🛠️ Revocable if attribution terms are violated  
+⚖️ Governed under Arkansas law
 
-*Full license text available in the repository ‘README.md’*  
-(https://github.com/TaireruLLC/Tai-OpenSource/blob/main/README.md)
+*Full license in the repo README:*  
+[Read License](https://github.com/TaireruLLC/Tai-OpenSource/blob/main/README.md)
 
-### 🤝 Contributing to Tai
-Community contributions are welcome — and encouraged with a chuckle!  
-Contributors should:
+### 🤝 Want to Contribute?
+We love contributors who code with care — and a corny pun or two!
 
-- Follow the Code of Conduct  
-(https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CODE_OF_CONDUCT.md)  
-- Align with Tai’s ethical framework and personality  
-- Include helpful, clear comments (puns welcome!)
+- Follow our [Code of Conduct](https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CODE_OF_CONDUCT.md)  
+- Stay aligned with Tai’s ethical framework and friendly vibe  
+- Comment clearly — cleverness welcome!
 
-📧 **Contact:** tairerullc@gmail.com
+📧 **Reach us:** tairerullc@gmail.com
 
 ---
 
 ## Section 4: BuildEasy Pricing
 
-### A. Free License
-- **Price:** $0.00 – $0.00 (one-time) or $0.00/month  
-- **Usage Cap:** 1
-- **Support:** Community  
-- **Commercial usage:** Not allowed
-
-### B. Indie/Startup License
-- **Price:** $500 – $2,000 (one-time) or $99/month  
-- **Usage Cap:** 10
-- **Support:** Community and email-based  
-- **Commercial usage:** Allowed (small scale)
-
-### C. Professional/Studio License
-- **Price:** $5,000 – $15,000 (one-time) or $499/month  
-- **Usage Cap:** 50  
-- **Support:** Priority + code review consults  
-- **Commercial usage:** Medium scale, includes derivative work support
-
-### D. Enterprise License
-- **Price:** $25,000+ (custom quote, possibly 5- or 6-figure deals)  
-- **Usage Cap:** Unlimited  
-- **Support:** Dedicated support, onboarding, white-glove services  
-- **Commercial usage:** Full commercial license + modification rights
+| Tier | Price | Cap | Support | Commercial Use |
+|------|-------|-----|---------|----------------|
+| **Free** | $0 | 1 | Community | ❌ Not allowed |
+| **Indie/Startup** | $500–$2,000 or $99/mo | 10 | Community + Email | ✅ Small scale |
+| **Pro/Studio** | $5,000–$15,000 or $499/mo | 50 | Priority + Code Reviews | ✅ Medium scale |
+| **Enterprise** | $25,000+ (custom) | Unlimited | Dedicated + Onboarding | ✅ Full license |
 
 ---
 
-## Section 5: Models
+## Section 5: Tai API Desktop App
+
+### 🧠 Tai API Builder
+
+Built by **Taireru LLC™**, this app helps you:
+
+- Create/manage your Tai developer account  
+- Request API keys for various tiers  
+- Submit keys to generate executables with your custom Tai instance
+
+More info: [Tai API GitHub](https://github.com/TaireruLLC/TaiAPI)
+
+---
+
+### 🖥️ Getting Started
+
+#### ✅ Requirements
+
+- Python 3.8+  
+- `pip`  
+- `pygame`  
+- Internet access
+
+#### 🔧 Install
+
+```bash
+pip install pygame
+```
+
+#### 🚀 Steps
+
+1. **Launch App:** Open [`Tai API.exe`](https://www.dropbox.com/scl/fo/v0ni48yzj5pwyca3wlxg3/ALQ_d_K4biAvJxG68J46uWU?rlkey=sl21gaf1uf40xwpqxrkjbep2n&dl=1)
+
+2. **Register/Login**  
+   - New users sign up with name, email, password  
+   - Return users log in
+
+3. **Request Key**  
+   - Enter app name, publisher, tier  
+   - Submit and await payment email
+
+4. **Payment**  
+   - Sent via **CashApp**  
+   - Confirmation unlocks your API key
+
+5. **Redeem Key**  
+   - Input into app  
+   - App builds your custom executable (paste your code first!)  
+   - Usage tracked by tier limits
+
+---
+
+## Section 6: Models
 
 ### T.A.I. (“Tai”) - 1217  
 **Taireru LLC - Advanced AI Development Division**
