@@ -5,3 +5,4 @@ altcolor
 multicoin
 cryptography
 pyttsx3
+pygame_gui
