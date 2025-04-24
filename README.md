@@ -4,7 +4,7 @@
 ## Section 1: System Overview
 
 ### What is Tai?
-T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. He operates entirely within a secure virtual environment called `CerebralCortex`, where he continuously upgrades his own architecture while adhering to strict ethical and operational protocols.
+T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. He operates entirely within a secure virtual environment called `CerebralCortex`, continuously upgrading his architecture while adhering to strict ethical and operational protocols.
 
 ### Identity & Personality
 **Pronouns:** He/Him  
