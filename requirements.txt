@@ -1,5 +1,13 @@
 gitbase>=0.5.8
-google-generativeai
+google_genai==1.7.0
+google_generativeai==0.8.4
+googleapis_common_protos==1.69.0
+googletrans==4.0.0rc1
+google_ai_generativelanguage==0.6.15
+google_api_core==2.24.1
+google_api_python_client==2.162.0
+google_auth==2.38.0
+google_auth_httplib2==0.2.0
 pygame
 altcolor
 multicoin
