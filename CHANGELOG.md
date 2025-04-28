@@ -71,5 +71,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
    Added simple link text scraping for T.A.I. (he can now read most links; more advanced link scraping planned)
 
 ### Changed
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Removed `pygame` message
+- [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+  Removed `pygame` message
 
 ### Fixed
