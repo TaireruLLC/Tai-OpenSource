@@ -77,7 +77,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   Removed `pygame` message
 - [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
    Reverted to old TaiDivision names; new names were too different and complex.
+  (`PrefrontalCortex` -> `Dictator`; `Neuroplasticity` -> `Architect`; `Hippocampus` -> `Historian`; `Wernicke` -> `Blacksmith`)
 - [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
   Reverted to old TaiDivision names; new names were too different and complex.
-
+  (`PrefrontalCortex` -> `Dictator`; `Neuroplasticity` -> `Architect`; `Hippocampus` -> `Historian`; `Wernicke` -> `Blacksmith`)
+  
 ### Fixed
