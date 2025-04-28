@@ -563,7 +563,7 @@ Hello, simply read the below response, find links wrapped (if any), and return t
     """)
     
     urls_str: str = f"{model.generate_content(user_message).text}"
-    print(urls_str)
+    #print(urls_str)
 
     final_text = ""
 
@@ -591,7 +591,7 @@ Hello, simply read the below response, find links wrapped (if any), and return t
             except Exception as e:
                 return f"An error occurred: {e}"
 
-    print(f"final_text: {final_text}")
+    #print(f"final_text: {final_text}")
     return final_text
 
 def send_message(user_message: str, model: genai.GenerativeModel, manager: pygame_gui.UIManager, chat_display: pygame_gui.elements.UITextBox):
@@ -729,7 +729,7 @@ Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
     initial_model_response = model.generate_content(initial_prompt)
     parsed_response_text = ""
     scraped_text: Union[str, None] = scrape_text_from_url(user_message=user_message)
-    print(scraped_text)
+    #print(scraped_text)
     #altcolor.cPrint(color="BLUE", text=initial_model_response.text, style="Fore", objective="controlled")
 
     # Analyze and process code upgrade if present
