@@ -96,22 +96,27 @@ def init(model_name: str) -> genai.GenerativeModel:
 
 ---
 
-## **Models**
+# Models
+### T.A.I. (“Tai”) - 1217  
+**Taireru LLC - Advanced AI Development Division**
 
-Property | Description  
----|---  
-**Model Description** | Tai (Total Autonomous Intelligence), an African American he/him persona, is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions—often with a dash of corny humor—while continuously improving itself through autonomous code evolution. Powered by TaiDivisions, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency.  
-**Model Code** | 1217  
-**Supported I/O** | Input: Text; Output: Text & Image  
-**Token Limits** | Input: 1,000,000; Output: 8,000  
-**Abilities** | Function calling, code execution, image generation, long‑term memory, short‑term memory  
-**Latest Update** | April 2025  
-**Cutoff** | August 2024  
+| **Property** | **Description** |
+|--------------|------------------|
+| **Model Description** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions (sort of like Tai’s own brain), Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency. |
+| **Model Code** | 1217 |
+| **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported |
+| **Token Limits** | Input: 500,000<br>Output: 7,000 |
+| **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Not supported<br>Caching: Not supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
+| **Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Architect Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.<br>**Historian Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Blacksmith Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Latest Update** | April 2025 |
+| **Cutoff** | August 2024 |
 
-**Structure**  
-- **Dictator Configuration:** Central intelligence for Tai, processing inputs and generating responses.  
-- **Architect Configuration:** Generates self‑evolution code applied by the Dictator.  
-- **Historian Configuration:** Manages memory storage, retrieval, and formatting.
+---
+
+# Changelog
+{scrape_text_from_url("Read this: https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CHANGELOG.md")}
+
+---
 
 ---
 
@@ -345,22 +350,25 @@ def generate_code(request: str, response: str, tai: Optional[genai.GenerativeMod
 
 ---
 
-## **Models**
+# Models
+### T.A.I. (“Tai”) - 1217  
+**Taireru LLC - Advanced AI Development Division**
 
-Property | Description  
----|---  
-**Model Description** | Tai (Total Autonomous Intelligence), an African American he/him persona, is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions—often with a dash of corny humor—while continuously improving itself through autonomous code evolution. Powered by TaiDivisions, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency.  
-**Model Code** | 1217  
-**Supported I/O** | Input: Text; Output: Text & Image  
-**Token Limits** | Input: 1,000,000; Output: 8,000  
-**Abilities** | Function calling, code execution, image generation, long‑term memory, short‑term memory  
-**Latest Update** | April 2025  
-**Cutoff** | August 2024  
+| **Property** | **Description** |
+|--------------|------------------|
+| **Model Description** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions (sort of like Tai’s own brain), Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency. |
+| **Model Code** | 1217 |
+| **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported |
+| **Token Limits** | Input: 500,000<br>Output: 7,000 |
+| **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Not supported<br>Caching: Not supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
+| **Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Architect Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.<br>**Historian Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Blacksmith Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Latest Update** | April 2025 |
+| **Cutoff** | August 2024 |
 
-**Structure**  
-- **Dictator Configuration:** Central intelligence for Tai, processing inputs and generating responses.  
-- **Architect Configuration:** Generates self‑evolution code applied by the Dictator.  
-- **Historian Configuration:** Manages memory storage, retrieval, and formatting.
+---
+
+# Changelog
+{scrape_text_from_url("Read this: https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CHANGELOG.md")}
 
 ---
 
@@ -433,22 +441,27 @@ The user's prompt to Tai Chat is below (do not add useless functions, for exampl
 
 ---
 
-## **Models**
+# Models
+### T.A.I. (“Tai”) - 1217  
+**Taireru LLC - Advanced AI Development Division**
 
-Property | Description  
----|---  
-**Model Description** | Tai (Total Autonomous Intelligence), an African American he/him persona, is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions—often with a dash of corny humor—while continuously improving itself through autonomous code evolution. Powered by TaiDivisions, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency.  
-**Model Code** | 1217  
-**Supported I/O** | Input: Text; Output: Text & Image  
-**Token Limits** | Input: 1,000,000; Output: 8,000  
-**Abilities** | Function calling, code execution, image generation, long‑term memory, short‑term memory  
-**Latest Update** | April 2025  
-**Cutoff** | August 2024  
+| **Property** | **Description** |
+|--------------|------------------|
+| **Model Description** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions (sort of like Tai’s own brain), Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency. |
+| **Model Code** | 1217 |
+| **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported |
+| **Token Limits** | Input: 500,000<br>Output: 7,000 |
+| **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Not supported<br>Caching: Not supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
+| **Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Architect Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.<br>**Historian Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Blacksmith Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Latest Update** | April 2025 |
+| **Cutoff** | August 2024 |
 
-**Structure**  
-- **Dictator Configuration:** Central intelligence for Tai, processing inputs and generating responses.  
-- **Architect Configuration:** Generates self‑evolution code applied by the Dictator.  
-- **Historian Configuration:** Manages memory storage, retrieval, and formatting.
+---
+
+# Changelog
+{scrape_text_from_url("Read this: https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CHANGELOG.md")}
+
+---
 
 ---
 
@@ -618,22 +631,27 @@ def send_message(user_message: str, model: genai.GenerativeModel, manager: pygam
 
 ---
 
-## **Models**
+# Models
+### T.A.I. (“Tai”) - 1217  
+**Taireru LLC - Advanced AI Development Division**
 
-Property | Description  
----|---  
-**Model Description** | Tai (Total Autonomous Intelligence), an African American he/him persona, is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions—often with a dash of corny humor—while continuously improving itself through autonomous code evolution. Powered by TaiDivisions, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency.  
-**Model Code** | 1217  
-**Supported I/O** | Input: Text; Output: Text & Image  
-**Token Limits** | Input: 1,000,000; Output: 8,000  
-**Abilities** | Function calling, code execution, image generation, long‑term memory, short‑term memory  
-**Latest Update** | April 2025  
-**Cutoff** | August 2024  
+| **Property** | **Description** |
+|--------------|------------------|
+| **Model Description** | Tai (Total Autonomous Intelligence) is a revolutionary AI developed by Taireru LLC, designed to engage in deep, meaningful interactions while continuously improving itself through autonomous code evolution. Powered by TaiDivisions (sort of like Tai’s own brain), Google’s Gemini API, and BuildEasy, Tai delivers intelligent, adaptive responses across diverse topics with unparalleled efficiency. |
+| **Model Code** | 1217 |
+| **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported |
+| **Token Limits** | Input: 500,000<br>Output: 7,000 |
+| **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Not supported<br>Caching: Not supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
+| **Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Architect Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.<br>**Historian Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Blacksmith Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Latest Update** | April 2025 |
+| **Cutoff** | August 2024 |
 
-**Structure**  
-- **Dictator Configuration:** Central intelligence for Tai, processing inputs and generating responses.  
-- **Architect Configuration:** Generates self‑evolution code applied by the Dictator.  
-- **Historian Configuration:** Manages memory storage, retrieval, and formatting.
+---
+
+# Changelog
+{scrape_text_from_url("Read this: https://github.com/TaireruLLC/Tai-OpenSource/blob/main/CHANGELOG.md")}
+
+---
 
 ---
 
