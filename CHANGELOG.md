@@ -61,3 +61,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
    Removed duplicate imports and functions
 - [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
    Removed duplicate imports and functions
+
+## Tai v.0.4.6 - 2025-04-28
+ 
+### Added
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Added simple link text scraping for T.A.I. (he can now read most links; more advanced link scraping planned)
+- [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Added simple link text scraping for T.A.I. (he can now read most links; more advanced link scraping planned)
+
+### Changed
+
+### Fixed
