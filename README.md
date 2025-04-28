@@ -4,7 +4,7 @@
 ## Section 1: System Overview
 
 ### What is Tai?
-T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. He operates entirely within a secure virtual environment called `CerebralCortex`, continuously upgrading his architecture while adhering to strict ethical and operational protocols.
+T.A.I. — or Tai for short — is a next-generation, self-evolving artificial intelligence designed for high-level interaction, real-time learning, and autonomous code refinement. He operates entirely within a secure virtual environment called `modifiable`, continuously upgrading his architecture while adhering to strict ethical and operational protocols.
 
 ### Identity & Personality
 **Pronouns:** He/Him  
@@ -53,7 +53,7 @@ Expert insight across:
 - And more
 
 ### 🧬 Self-Evolving Engine
-- Writes, audits, and iterates on Python code inside `CerebralCortex`  
+- Writes, audits, and iterates on Python code inside `modifiable`  
 - Continuously improves internal systems through autonomous logic evolution
 
 ### 🛡️ Containment Protocol
@@ -200,7 +200,7 @@ pip install pygame
 | **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported |
 | **Token Limits** | Input: 500,000<br>Output: 7,000 |
 | **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Not supported<br>Caching: Not supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
-| **Structure** | **Prefrontal Cortex Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Neuroplasticity Configuration:** This Configuration creates code for self-evolution, which is then applied within the Prefrontal Cortex Configuration.<br>**Hippocampus Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Wernicke Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Architect Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.<br>**Historian Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Blacksmith Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
 | **Latest Update** | April 2025 |
 | **Cutoff** | August 2024 |
 
@@ -216,6 +216,6 @@ pip install pygame
 | **Supported Input/Output** | **Input:** Text: Supported<br>Image: Not supported<br>Video: Not supported<br>Audio: Not supported<br>**Output:** Text: Supported<br>Image: Supported<br>Video: Not supported<br>Audio: Not supported |
 | **Token Limits** | Input: 1,000,000<br>Output: 8,000 |
 | **Abilities** | API: Not supported<br>Formatted/structured output: Supported<br>Function calling: Supported<br>Code execution: Supported<br>Image generation: Supported<br>Caching: Supported<br>Ingrained extension use: Supported<br>Tuning: Not supported<br>Thinking: Supported<br>Search: Not supported<br>Audio gen: Not supported<br>Short term memory (session/day): Supported<br>Long term memory (multiple sessions): Supported |
-| **Structure** | **Prefrontal Cortex Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Neuroplasticity Configuration:** This Configuration creates code for self-evolution, which is then applied within the Prefrontal Cortex Configuration.<br>**Hippocampus Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Wernicke Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
+| **Structure** | **Dictator Configuration:** This TaiDivisions configuration (“Configuration”) coordinates the actions of other Configurations, acting as the central intelligence for Tai by processing inputs and generating appropriate responses.<br>**Architect Configuration:** This Configuration creates code for self-evolution, which is then applied within the Dictator Configuration.<br>**Historian Configuration:** This Configuration manages the storage, retrieval, and formatting of memory, ensuring it is readily accessible for Tai's use.<br>**Blacksmith Configuration:** This Configuration specializes in the interpretation and acquisition of external software capabilities. It identifies, installs, and manages Python libraries, enabling Tai to expand its linguistic, analytical, and functional vocabulary through dynamic integration of external tools. |
 | **Latest Update** | April 2025 |
 | **Cutoff** | August 2024 |
