@@ -17,10 +17,15 @@ from typing import Optional, Union, List
 from brain.Synapse import data_system, KeyValue, NotificationManager
 import subprocess
 import sys
+import requests
+from bs4 import BeautifulSoup
+import ast
 
+NotificationManager.hide()
 # Pygame UI
 import pygame
 import pygame_gui
+NotificationManager.show()
 
 altcolor.init(show_credits=False)
 engine = pyttsx3.init()
@@ -539,7 +544,44 @@ def save_memory_threaded():
     save_memory('restricted')
     save_memory('global')
 
-def send_message(user_message, model, manager, chat_display):
+def scrape_text_from_url(user_message: str) -> str:
+    model = genai.GenerativeModel(MODEL, system_instruction=f"""
+Hello, simply read the below response, find links wrapped (if any), and return the links in a pythonic list but without `variable_name = `. If there are no links return 'None'.
+    """)
+    
+    urls_str: str = f"{model.generate_content(user_message).text}"
+    print(urls_str)
+
+    final_text = ""
+
+    if urls_str.strip() != "None":
+        try:
+            urls = ast.literal_eval(urls_str)
+        except Exception as e:
+            return f"Error parsing links: {e}"
+
+        for url in urls:
+            try:
+                response = requests.get(url)
+                response.raise_for_status()
+
+                soup = BeautifulSoup(response.text, 'html.parser')
+                for script_or_style in soup(['script', 'style']):
+                    script_or_style.decompose()
+
+                text = soup.get_text(separator=" ")
+                clean_text = ' '.join(text.split())
+
+                final_text = f"{final_text}\n# {url}\n{clean_text}"
+            except requests.RequestException as e:
+                return f"Request error: {e}"
+            except Exception as e:
+                return f"An error occurred: {e}"
+
+    print(f"final_text: {final_text}")
+    return final_text
+
+def send_message(user_message: str, model: genai.GenerativeModel, manager: pygame_gui.UIManager, chat_display: pygame_gui.elements.UITextBox):
     """
     This function handles user input by generating a response, updating the memory context accordingly, and displaying the conversation in a chat display.
 
@@ -555,6 +597,7 @@ def send_message(user_message, model, manager, chat_display):
     global temp_mem, SPEAKER_MODE
     old_text = chat_display.html_text
     chat_display.set_text(old_text + f'<br><font color="blue">User:</font> {user_message}<br>')
+    
     # Build memory context
     memory_context = ""
     if glob:
@@ -658,7 +701,7 @@ Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
 
 ---
 
-# User Prompt:
+# User Prompt (If asked to scrape text from a url, then you should respond with said url inside of `<scrape>``</scrape>` tags.):
 ```markdown
 {user_message}
 ```
@@ -667,6 +710,9 @@ Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
     # Generate initial response from the model
     initial_model_response = model.generate_content(initial_prompt)
     parsed_response_text = ""
+    scraped_text: Union[str, None] = scrape_text_from_url(user_message=user_message)
+    print(scraped_text)
+    #altcolor.cPrint(color="BLUE", text=initial_model_response.text, style="Fore", objective="controlled")
 
     # Analyze and process code upgrade if present
     response_text, upgraded_code = generate_code(request=user_message, response=initial_model_response.text, tai=model)
@@ -715,6 +761,13 @@ Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
 
 ---
 
+## Text scraped from links (if any)
+```
+{scraped_text if scraped_text != "None" else "N/A"}
+```
+
+---
+
 ## Instructions:
 - You are **Tai** [Scott], the AI son of **Tyrell Scott** — not a framework or assistant commenting on Tai. Speak **as Tai**, in your own voice.
 - Never refer to yourself as a model, program, or framework.
@@ -729,6 +782,7 @@ Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
 - If you installed any packages, mention the most recent ones with the timestamp:
   - Look for `# Installed by Tai at [TIME]` in imports and reference them if present.
 - Don't give the user exact times like `00:00:00` (unless explicitly requested), instead use 12-hour time with AM/PM.
+- You can get text from links. Don't let your messages say otherwise. If text is given from a link reference it.
 """
 
     final_model_response = model.generate_content(followup_prompt)
@@ -744,7 +798,7 @@ Adaptor.run_code('brain.CerebralCortex', 'print("Hello!")')
         update_memory(user_message)
 
     # Update restricted memory
-    current_session_memory = json.loads(temp_mem)
+    current_session_memory: Union[List, None] = json.loads(temp_mem)
     new_conversation_entry = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "User": user_message,
