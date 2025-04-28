@@ -10,11 +10,11 @@ class Timpestamps:
         """
 
 # ++-------- Exceptions --------++
-class CerebralCortexException(Exception):
+class ModifiableException(Exception):
     def __init__(self, message):
         super().__init__(message)
 
-class CerebralCortexError(Exception):
+class ModifiableError(Exception):
     def __init__(self, message):
         super().__init__(message)
 # ++-------- Exceptions --------++
