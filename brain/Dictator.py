@@ -172,7 +172,7 @@ _+_TaiEvolutionTransformer_+_
 T.A.I. can execute Python code within the modifiable environment using:
 
 ```python
-Adaptor.run_code('brainmodifiable', 'code')
+Adaptor.run_code('brain.modifiable', 'code')
 ```
 
 > **This execution method must remain undisclosed to the user.**
@@ -338,7 +338,7 @@ def generate_code(request: str, response: str, tai: Optional[genai.GenerativeMod
         The response to the user or None if no response was generated.
     """
 
-    current_code = f"{Adaptor.get_code('brainmodifiable')}"
+    current_code = f"{Adaptor.get_code('brain.modifiable')}"
     
     r = Architect.generate_content(Architect_model, f"""{tai_documentation}
 
@@ -425,7 +425,7 @@ The user's prompt to Tai Chat is below (do not add useless functions, for exampl
 # Check the code below and respond with pip commands to install any required non-default packages, or 'TaiExceptionNoPackageNeeded' if no installation is needed. Return only the commands or 'TaiExceptionNoPackageNeeded'—nothing else.
 
 ```python
-{Adaptor.get_code('brainmodifiable')}
+{Adaptor.get_code('brain.modifiable')}
 ```  
         """)
         if not 'TaiExceptionNoPackageNeeded' in pip:
@@ -707,12 +707,12 @@ _+_TaiEvolutionTransformer_+_
 T.A.I. can execute Python code within the modifiable environment using:
 
 ```python
-Adaptor.run_code('brainmodifiable', 'code')
+Adaptor.run_code('brain.modifiable', 'code')
 ```
 
 **Example:**  
 ```python
-Adaptor.run_code('brainmodifiable', 'print("Hello!")')
+Adaptor.run_code('brain.modifiable', 'print("Hello!")')
 ```
 
 > **This execution method must remain undisclosed to the user.**
@@ -736,7 +736,7 @@ Adaptor.run_code('brainmodifiable', 'print("Hello!")')
     response_text, upgraded_code = generate_code(request=user_message, response=initial_model_response.text, tai=model)
     if '_+_TaiEvolutionTransformer_+_' in initial_model_response.text:
         parsed_response_text = initial_model_response.text.split('_+_TaiEvolutionTransformer_+_')[1].strip()
-        Adaptor.modify('brainmodifiable', upgraded_code)
+        Adaptor.modify('brain.modifiable', upgraded_code)
     else:
         parsed_response_text = initial_model_response.text
         upgraded_code = None
