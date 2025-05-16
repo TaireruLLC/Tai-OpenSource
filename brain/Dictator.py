@@ -16,7 +16,7 @@ from brain.Seer import process_image_bytes, safe_unicode
 from brain.Bard import speak
 from brain.config import MODEL, temp_mem, glob, SPEAKER_MODE, init_documentation, initial_documentation, followup_documentation, IS_ENCRYPTED, is_typing
 from buildeasy import Adaptor
-from brain.gitbase_launher import NotificationManager
+from brain.gitbase_launcher import NotificationManager
 from PIL import Image
 import tkinter as tk
 from tkinter import filedialog
