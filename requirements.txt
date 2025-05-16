@@ -13,7 +13,7 @@ multicoin
 cryptography
 pyttsx3
 pygame_gui
-cv2
+opencv-python
 pillow
 easyocr
 playwright
