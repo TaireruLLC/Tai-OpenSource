@@ -83,3 +83,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   (`PrefrontalCortex` -> `Dictator`; `Neuroplasticity` -> `Architect`; `Hippocampus` -> `Historian`; `Wernicke` -> `Blacksmith`)
   
 ### Fixed
+
+## Tai v.0.4.7 - 2025-05-16
+ 
+### Added
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Added `Seer` division for **planned** image input addition to 1217
+
+### Changed
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Added a few helpful debug logs
+- [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+  Added a few helpful debug logs
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Huge UI revamp
+  
+### Fixed
+- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+   Outdated usage of `BuildEasy`
+- [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
+  Outdated usage of `BuildEasy`
