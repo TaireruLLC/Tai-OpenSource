@@ -13,3 +13,9 @@ multicoin
 cryptography
 pyttsx3
 pygame_gui
+cv2
+pillow
+easyocr
+playwright
+bs4
+requests
