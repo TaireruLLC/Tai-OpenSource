@@ -95,8 +95,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
    Added a few helpful debug logs
 - [1218:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
   Added a few helpful debug logs
-- [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
-   Huge UI revamp
   
 ### Fixed
 - [1217:](https://docs.google.com/document/d/1vERwbk3g67rQ1WhX7M3CL14-UrSbzBdk9WTakCbnn6g/edit?usp=sharing)
