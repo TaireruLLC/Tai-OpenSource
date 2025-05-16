@@ -6,7 +6,7 @@ from datetime import datetime
 from typing import Optional, Union
 import google.generativeai as genai
 
-from brain.gitbase_launher import data_system, KeyValue, NotificationManager
+from brain.gitbase_launcher import data_system, KeyValue, NotificationManager
 
 # === Model Configuration ===
 
